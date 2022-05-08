@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/reglayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:scrollbars="vertical">
+
+    <TextView
+        android:id="@+id/regTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/register"
+        android:textAlignment="center"
+        android:textSize="24sp"
+
+        />
+
+    <EditText
+        android:id="@+id/userNameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/username"
+        android:ems="10"
+        android:layout_marginVertical="20dp"
+        android:layout_marginHorizontal="25dp"
+        android:inputType="textPersonName"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/regTV"
+
+        />
+
+    <EditText
+        android:id="@+id/userEmailET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:ems="10"
+        android:layout_marginVertical="20dp"
+        android:layout_marginHorizontal="25dp"
+        android:inputType="textEmailAddress"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/userNameET" />
+
+    <EditText
+        android:id="@+id/passwordET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:ems="10"
+        android:layout_marginVertical="20dp"
+        android:layout_marginHorizontal="25dp"
+        android:inputType="textPassword"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/userEmailET"
+        />
+
+    <EditText
+        android:id="@+id/passwordConfirmET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordET"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginVertical="20dp"
+        android:ems="10"
+        android:hint="@string/passwordagain"
+        android:inputType="textPassword" />
+
+    <LinearLayout
+        android:id="@+id/linlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordConfirmET"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:onClick="cancel"
+            android:text="@string/cancel"
+            app:backgroundTint="#F44336"
+            tools:ignore="UsingOnClickInXml" />
+
+        <Button
+            android:id="@+id/RegisterButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:onClick="registerAccount"
+            android:text="@string/register"
+            app:backgroundTint="#4CAF50"
+            tools:ignore="UsingOnClickInXml" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Animate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordConfirmET"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="152dp"
+        android:onClick="dance"
+        android:text="@string/dance"
+        app:backgroundTint="#AF9A4C"
+        tools:ignore="OnClick,UsingOnClickInXml" />
+
+
+</RelativeLayout>

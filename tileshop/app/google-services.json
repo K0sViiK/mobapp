@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "174979577887",
+    "project_id": "tileshopproject",
+    "storage_bucket": "tileshopproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174979577887:android:5557d57739caf223b83d2a",
+        "android_client_info": {
+          "package_name": "com.example.tileshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "174979577887-1e2c840a7d3d80l87qsveqet83rig3g8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tileshop",
+            "certificate_hash": "122c1811204e7be2ef6d6999af3d4540c3f33237"
+          }
+        },
+        {
+          "client_id": "174979577887-mblujaq73gg1ngvnd445nk9bviedrnh4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDG806Tw0GDrou6sL_J_Ra78JKXyozd2HI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "174979577887-mblujaq73gg1ngvnd445nk9bviedrnh4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

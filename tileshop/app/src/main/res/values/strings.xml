@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">TileShop</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
+    <string name="email">E-mail</string>
+    <string name="cancel">CANCEL</string>
+    <string name="passwordagain">Password Again</string>
+    <string name="itemdescription">Item Description</string>
+    <string name="anonymousLogin">Login Anonymously</string>
+    <string name="item_placeholder">placeholder</string>
+    <string name="dance">DANCE</string>
+
+    <string-array name="shopping_item_names">
+        <item>Erdwood tiles</item>
+        <item>Plasteel Sheets</item>
+        <item>Copper-trimmed tiles</item>
+        <item>Sandstone-pattern tiles</item>
+        <item>Spice Plates</item>
+        <item>Royal-pattern tiles</item>
+        <item>Chiseled stone tiles</item>
+        <item>Jadite tiles</item>
+        <item>Marbled tiles</item>
+        <item>Blackstone blocks</item>
+    </string-array>
+
+    <string-array name="shopping_item_description">
+        <item>Bocsi, nem kerestem mindenhová képet, szóval itt egy adag pepe</item>
+        <item>Desc2</item>
+        <item>Desc3</item>
+        <item>Desc4</item>
+        <item>The Spice Must Flow</item>
+        <item>Desc6</item>
+        <item>Desc7</item>
+        <item>Desc8</item>
+        <item>Desc9</item>
+        <item>Desc10</item>
+    </string-array>
+
+    <array name="shopping_item_images">
+        <item>@drawable/monkas</item>
+        <item>@drawable/monkas</item>
+        <item>@drawable/monkas</item>
+        <item>@drawable/peeposad</item>
+        <item>@drawable/yay</item>
+        <item>@drawable/monkas</item>
+        <item>@drawable/yay</item>
+        <item>@drawable/monkas</item>
+        <item>@drawable/peeposad</item>
+        <item>@drawable/monkas</item>
+    </array>
+
+    <string-array name="shopping_item_prices">
+        <item>230 Sol</item>
+        <item>78 Sol</item>
+        <item>150 Sol</item>
+        <item>420 Sol</item>
+        <item>780 Sol</item>
+        <item>300 Sol</item>
+        <item>170 Sol</item>
+        <item>210 Sol</item>
+        <item>215 Sl</item>
+        <item>350 Sol</item>
+    </string-array>
+    <string name="title_activity_notificationactivity">notificationactivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
